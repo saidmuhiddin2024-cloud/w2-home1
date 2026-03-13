@@ -267,63 +267,63 @@ $bg: #f8fbff;
       font-weight: bold;
       transition: 0.3s;
 
-//       &:hover { opacity: 0.9; }
-//     }
-//   }
+      &:hover { opacity: 0.9; }
+    }
+  }
 
-//   &__img {
-//     flex: 1;
-//     img {
-//       width: 100%;
-//       border-radius: 40px 40px 40px 0; 
-//       object-fit: cover;
-//     }
-//   }
-// }
-// $dark-blue: #004a6b;
+  &__img {
+    flex: 1;
+    img {
+      width: 100%;
+      border-radius: 40px 40px 40px 0; 
+      object-fit: cover;
+    }
+  }
+}
+$dark-blue: #004a6b;
 
-// .footer {
-//   background: $dark-blue;
-//   color: #fff;
-//   padding: 60px 10% 20px;
-//   font-family: sans-serif;
+.footer {
+  background: $dark-blue;
+  color: #fff;
+  padding: 60px 10% 20px;
+  font-family: sans-serif;
 
-//   &__main {
-//     display: flex;
-//     justify-content: space-between;
-//     padding-bottom: 40px;
-//     border-bottom: 1px solid rgba(255,255,255,0.1);
-//   }
+  &__main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
 
-//   &__logo {
-//     display: flex;
-//     align-items: center;
-//     gap: 10px;
-//     font-size: 20px;
-//     .l-circle {
-//       background: #fff; color: $dark-blue;
-//       width: 35px; height: 35px;
-//       border-radius: 50%;
-//       display: grid; place-items: center;
-//       font-weight: bold;
-//     }
-//   }
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    .l-circle {
+      background: #fff; color: $dark-blue;
+      width: 35px; height: 35px;
+      border-radius: 50%;
+      display: grid; place-items: center;
+      font-weight: bold;
+    }
+  }
 
-//   &__col {
-//     display: flex;
-//     flex-direction: column;
-//     gap: 12px;
-//     h4 { margin-bottom: 10px; font-size: 16px; }
-//     a { color: #ccc; text-decoration: none; font-size: 14px; &:hover { color: #fff; } }
-//   }
+  &__col {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    h4 { margin-bottom: 10px; font-size: 16px; }
+    a { color: #ccc; text-decoration: none; font-size: 14px; &:hover { color: #fff; } }
+  }
 
-//   &__bottom {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     padding-top: 20px;
-//     font-size: 12px;
-//     color: #999;
-//     .socials span { margin-left: 15px; cursor: pointer; font-size: 18px; }
-//   }
-// }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 12px;
+    color: #999;
+    .socials span { margin-left: 15px; cursor: pointer; font-size: 18px; }
+  }
+}
